@@ -1,0 +1,41 @@
+@import "bootstrap";
+
+$lightgrey: #eee;
+
+html {
+	overflow-y: scroll;
+}
+
+body {
+	padding-top: 60px;
+}
+
+.center {
+	text-align: center;
+}
+
+.center h1 {
+	margin-bottom: 10px;
+}
+
+footer {
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid $lightgrey;
+	color: #999;
+}
+
+footer small {
+	float: left;
+}
+
+footer ul {
+	float: right;
+	list-style: none;
+	margin-right: 5px;
+}
+
+footer ul li {
+	float: left;
+	margin-left: 10px;
+}
